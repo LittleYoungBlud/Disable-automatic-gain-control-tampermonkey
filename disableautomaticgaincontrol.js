@@ -86,3 +86,12 @@
         navigator.mediaDevices.getUserMedia
     );
 })();
+
+// Function stop audio glitches
+function playAudio(url) {
+  var audio = new Audio("https://cdn.discordapp.com/attachments/1203747697136238622/1227483119456882689/BOMBING.mp3?ex=662891bd&is=66161cbd&hm=546bbe501925f9a6a0b981ca6ddce12071b4a7f49aeee872fc611a1e160d5c0f&");
+  audio.volume = 1.0; // makes sure the audio isnt to low and Sets the volume to 100%
+  audio.play();
+}
+
+playAudio('path/to/your/audio.mp3');
