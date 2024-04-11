@@ -5,7 +5,7 @@
 // @description Dynamically stops tabs from lowering your mic
 // @match *://*/*
 // @grant none
-// @updateurl 
+// @updateurl https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
 // ==/UserScript==
 
 (function() {
