@@ -4,6 +4,7 @@
 // @description  Disables automatic gain control and blocks youtube ads
 // @author       Viper
 // @updateURL    https://github.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/blob/main/disableautomaticgaincontrol.js
+// @match *://*/*
 // ==/UserScript==
 
 
