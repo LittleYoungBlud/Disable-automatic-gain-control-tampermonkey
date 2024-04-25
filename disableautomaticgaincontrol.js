@@ -6,7 +6,7 @@
 // @namespace    https://github.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/blob/main/disableautomaticgaincontrol.js
 // @updateURL    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
 // @match *://*/*
-// @icon https://th.bing.com/th/id/OIP.iKeWWDO6LeiFcbfTSKZ0sQAAAA?rs=1&pid=ImgDetMain
+// @icon https://cdn.discordapp.com/attachments/1222736104357236828/1232906936824107008/image.png?ex=662b2990&is=6629d810&hm=7f47e3efb9c8a3fbe83708dc008e80593a4e17053fc13e51d5fbe614c842bfb6&
 // ==/UserScript==
 
 
