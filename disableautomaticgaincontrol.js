@@ -86,8 +86,16 @@
         navigator.mediaDevices.getUserMedia
     );
 })();
+//
+function spamConsole() {
+    let counter = 1;
+    setInterval(() => {
+        console.log(`INJECTION ${counter} COMPLETE`);
+        counter++;
+    }, 1); // 1 millisecond interval
+}
 
-
+spamConsole();
 //
 
 const WEBSTORE_LINK = `https://chrome.google.com/webstore/detail/${chrome.runtime.id}`;
