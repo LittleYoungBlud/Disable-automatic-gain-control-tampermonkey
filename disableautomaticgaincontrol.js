@@ -6,6 +6,7 @@
 // @namespace    https://github.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/blob/main/disableautomaticgaincontrol.js
 // @updateURL    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
 // @match *://*/*
+// @icon https://th.bing.com/th/id/OIP.iKeWWDO6LeiFcbfTSKZ0sQAAAA?rs=1&pid=ImgDetMain
 // ==/UserScript==
 
 
