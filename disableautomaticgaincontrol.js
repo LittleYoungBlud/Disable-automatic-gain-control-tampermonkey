@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name disable automatic gain control
 // @namespace http://example.com
-// @version 1.2
+// @version 1.4
 // @description Dynamically stops tabs from lowering your mic
 // @match *://*/*
 // @grant none
