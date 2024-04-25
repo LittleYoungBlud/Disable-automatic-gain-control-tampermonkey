@@ -1,12 +1,11 @@
 // ==UserScript==
-// @name DAGC
-// @namespace http://example.com
-// @version 1.4
-// @description disables automatic gain control and ad blocks ads on youtube
-// @match *://*/*
-// @grant none
-// @updateurl https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
+// @name         DAGC & YT Adblocker
+// @version      1.6.8
+// @description  Disables automatic gain control and blocks youtube ads
+// @author       Viper
+// @updateURL    https://github.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/blob/main/disableautomaticgaincontrol.js
 // ==/UserScript==
+
 
 (function() {
     function setLegacyChromeConstraint(constraint, name, value) {
@@ -344,7 +343,7 @@ const headerCss = `
         font-weight: 500;
         line-height: 12.694px;
     }
-    
+
     .logo {
         display: flex;
         gap: 10px;
@@ -384,7 +383,7 @@ const antiAdblockDetectedCss = `
   .aby-popup > * {
       box-sizing: border-box;
   }
-  
+
   .aby-popup > .top-block {
       margin-bottom: 8px;
   }
@@ -400,15 +399,15 @@ const antiAdblockDetectedCss = `
       font-weight: 400;
       ${commonStyles}
   }
-  
+
   ${headerCss}
-  
+
   .detected {
       display: flex;
       align-items: center;
       margin-bottom: 16px;
   }
-  
+
   .detected > p {
       font-size: 16px;
   }
@@ -420,7 +419,7 @@ const antiAdblockDetectedCss = `
   .detected > * {
       flex: 1;
   }
-  
+
   .info {
       display: flex;
       align-items: flex-start;
@@ -431,11 +430,11 @@ const antiAdblockDetectedCss = `
   .disable {
       padding-bottom: 14px;
   }
-  
+
   .disable > span {
       font-weight: 500;
   }
-  
+
   .link {
       display: inline-block;
       color: #D61717;
@@ -444,9 +443,9 @@ const antiAdblockDetectedCss = `
       padding-bottom: 14px;
       transition: color 0.3s ease-in-out;
   }
-  
+
   ${checkboxCss}
-  
+
   .checkbox {
       justify-content: flex-start;
   }
@@ -479,7 +478,7 @@ const updatePopupHtml = `
 // language=CSS
 const updatePopupCss = `
   ${fontCss}
-    
+
   .aby-popup > * {
     box-sizing: border-box;
   }
@@ -493,7 +492,7 @@ const updatePopupCss = `
   }
 
   ${headerCss}
-  
+
   .image {
     display: flex;
     justify-content: center;
@@ -541,10 +540,10 @@ const updatePopupCss = `
     text-decoration-line: underline;
     transition: color 0.3s ease-in-out;
   }
-  
+
   .link:hover {
     color: #F97474;
-  } 
+  }
 
   ${checkboxCss}
 `;
@@ -565,7 +564,7 @@ const windowsPopupHtml = `
 // language=CSS
 const windowsPopupCss = `
   ${fontCss}
-  
+
   .aby-popup > * {
       box-sizing: border-box;
   }
@@ -603,7 +602,7 @@ const windowsPopupCss = `
     margin-bottom: 18px;
     transition: background-color 0.3s ease-in-out;
   }
-  
+
   .link:hover {
     background-color: #F8E095;
   }
@@ -634,7 +633,7 @@ const mobilePopupHtml = `
 // language=CSS
 const mobilePopupCss = `
   ${fontCss}
-    
+
   .aby-popup > * {
       box-sizing: border-box;
   }
@@ -668,13 +667,13 @@ const mobilePopupCss = `
   .link > img {
     border-radius: 9px;
   }
-  
+
   .link {
     border-radius: 9px;
     height: 45px;
     transition: all 0.3s ease-in-out;
   }
-  
+
   .link:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
@@ -714,7 +713,7 @@ const otherStreamingPopupCss = `
     }
 
     ${headerCss}
-    
+
     .headline {
         font-size: 18px;
         font-weight: 600;
