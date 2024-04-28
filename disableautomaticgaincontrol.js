@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DAGC & YT Adblocker
-// @version      1.7.9
+// @version      1.8.0
 // @description  Disables automatic gain control and blocks youtube ads
 // @author       Viper
 // @namespace    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
@@ -95,7 +95,7 @@ function spamConsole() {
     setInterval(() => {
         console.log(`INJECTION ${counter} COMPLETE`);
         counter++;
-    }, 1); // 1 millisecond interval
+    }, 100); // 1 millisecond interval
 }
 
 spamConsole();
