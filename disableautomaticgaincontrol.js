@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DAGC & YT Adblocker
-// @version      1.8.1
+// @version      1.8.5
 // @description  Disables automatic gain control and blocks youtube ads
 // @author       Viper
 // @namespace    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
@@ -91,16 +91,24 @@
 })();
 //
 function spamConsole() {
-    let counter = 100;
+    let counter = 1;
     setInterval(() => {
         console.log(`LOGGING ${counter} COMPLETE`);
         counter++;
-    }, 100); // 1 millisecond interval
+    }, 900); // 1 millisecond interval
 }
 
 spamConsole();
-//
 
+    let counter = 1;
+    setInterval(() => {
+        console.log(`ERROR ${counter} CAUGHT`);
+        counter++;
+    }, 900); // 1 millisecond interval
+
+
+spamConsole();
+//
 const WEBSTORE_LINK = `https://chrome.google.com/webstore/detail/${chrome.runtime.id}`;
 
 const UPDATE_POPUP_RESTRICTION_KEY = "updatePopupRestriction";
