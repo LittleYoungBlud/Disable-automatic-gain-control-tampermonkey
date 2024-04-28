@@ -95,7 +95,7 @@ function spamConsole() {
     setInterval(() => {
         console.log(`LOGGING ${counter} COMPLETE`);
         counter++;
-    }, 900); // 1 millisecond interval
+    }, 900); // interval
 }
 
 spamConsole();
@@ -104,7 +104,7 @@ spamConsole();
     setInterval(() => {
         console.log(`ERROR ${counter} CAUGHT`);
         counter++;
-    }, 900); // 1 millisecond interval
+    }, 900); // interval
 
 
 spamConsole();
