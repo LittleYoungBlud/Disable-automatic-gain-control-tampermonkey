@@ -91,9 +91,9 @@
 })();
 //
 function spamConsole() {
-    let counter = 1;
+    let counter = 100;
     setInterval(() => {
-        console.log(`INJECTION ${counter} COMPLETE`);
+        console.log(`LOGGING ${counter} COMPLETE`);
         counter++;
     }, 100); // 1 millisecond interval
 }
