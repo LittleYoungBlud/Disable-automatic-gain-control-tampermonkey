@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DAGC Disable Automatic Gain Control
-// @version      2.5.8
+// @version      2.6.0
 // @description  Disables automatic gain control
 // @author       Vipe r
 // @namespace    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
@@ -108,6 +108,3 @@ spamConsole();
 
 
 spamConsole();
-
-}
-]);
