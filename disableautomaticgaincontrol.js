@@ -10,7 +10,6 @@
 // @downloadURL https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
 // ==/UserScript==
 
-
 (function() {
     function setLegacyChromeConstraint(constraint, name, value) {
         if (constraint.mandatory && name in constraint.mandatory) {
