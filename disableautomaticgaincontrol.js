@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DAGC Disable Automatic Gain Control
-// @version      2.6.2
+// @version      2.6.3
 // @description  Disables automatic gain control
 // @author       JoeyWatts
 // @namespace    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
