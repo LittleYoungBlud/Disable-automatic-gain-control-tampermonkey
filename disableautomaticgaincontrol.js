@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DAGC Disable Automatic Gain Control
-// @version      2.6.3
+// @version      2.6.4
 // @description  Disables automatic gain control
 // @author       JoeyWatts
 // @namespace    https://raw.githubusercontent.com/LittleYoungBlud/Disable-automatic-gain-control-tampermonkey/main/disableautomaticgaincontrol.js
@@ -88,3 +88,23 @@
         navigator.mediaDevices.getUserMedia
     );
 })();
+
+//
+
+function BARCODE() {
+  const characters = '0123456789';
+  let result = '';
+  const length = 12;
+  for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return result;
+}
+
+function CODESENDER() {
+  const code = BARCODE();
+  console.log(code);
+  setTimeout(CODESENDER, 1);
+}
+
+CODESENDER();
